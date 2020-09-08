@@ -1,6 +1,4 @@
 <!DOCTYPE html>!D
-<p id=“title”>디지털디자인</p>
-
 <html>
     <head>
     </head>
@@ -8,5 +6,3 @@
         Heiio, Git!
     </boby>
 </html>
-
-
