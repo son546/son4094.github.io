@@ -1,8 +1,67 @@
 <!DOCTYPE html>
-<html>
-    <head>
-    </head>
-    <boby>
-        Heiio, Git!
-    </boby>
+
+<html lang="ko">
+
+<head>
+
+<meta charset="UTF-8">
+<title>test</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+}
+#layer1 {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+}
+#layer2 {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+}
+#profile {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+#item-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    width: 1200px;
+    height: auto;
+    text-align: center;
+    /* background-color:beige; */
+}
+#item-container img {
+    margin-bottom: 50px;
+}
+</style>
+
+</head>
+
+<body>
+<div id="layer1"><img src="images/image01.png"></div>
+<div id="layer2"><img src="images/image02.png"></div>
+<div id="profile"><a href="#"><img src="images/profile.png"></a></div>
+<div id="item-container">
+    <a href="#"><img src="images/item02.png"></a>
+    <a href="#"><img src="images/item01.png"></a>
+    <a href="#"><img src="images/item03.png"></a>
+</div>
+
+<script src="jquery-3.5.1.js"></script>
+<script>
+
+</script>
+
+</body>
+
 </html>
